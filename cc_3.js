@@ -18,3 +18,17 @@ let totalOrders = orders.reduce((total, quantity) => total +quantity, 0);   // C
 
 console.log("Updated Orders Array:", orders); 
 console.log("Total Orders Count:", totalOrders);    
+
+// Task 3  Employee Performance Tracking Scenario: HR System You are tracking employee performance data
+
+let employee = {
+    name: "Micheal Jordan",
+    role: "Manager",
+    PerformanceScore: 95,
+    isActive: true
+};             // Declare an object employee with properties
+
+employee.PerformanceScore = 90;     //Update performanceScore property
+employee.promotionEligible = true;    //Add a new property promotionEligible
+
+console.log("Employee Record", employee);
