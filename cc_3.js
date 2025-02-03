@@ -32,3 +32,14 @@ employee.PerformanceScore = 90;     //Update performanceScore property
 employee.promotionEligible = true;    //Add a new property promotionEligible
 
 console.log("Employee Record", employee);
+
+// Task 4 Customer Feedback Records Scenario: Feedback Management You are collecting customer feedback data
+
+let feedback = [       //Declare an array feedback
+    {customerName: "Beyonce", feedbackText: "Great service, will come back again!", rating: 5 }, 
+    {customerName: "Angela", feedbackText: "Good product, customer service was slow", rating: 3},
+    {customerName: "Karen", feedbackText: "Never will come back here, bad quality products", rating: 1},
+];
+feedback.push({customerName: "David", feedbackText: "Excellent quality, will buy more!", rating:5});  //Add new feedback to the array
+
+console.log("Customer Feedback List", feedback)
